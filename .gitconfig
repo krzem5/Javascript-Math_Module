@@ -5,7 +5,6 @@ desc=Javascript-Math_Module
 public=true
 homepage=
 license=mit
-remote=
 
 file.readme=.\README.md
 file.gitignore=.\.gitignore
