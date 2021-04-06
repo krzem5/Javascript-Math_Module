@@ -83,7 +83,7 @@ math.vector._v=class _Vec{
 	}
 	equals(...a){
 		var v=new math[this.constructor.name](...this._l(a))
-		var b="xyzw".split(""),s=0
+		var b="xyzw".split("")
 		for (var i=0;i<this.get_length();i++){
 			var n=b.shift()
 			if (v.toDict()[n]!=this.toDict()[n]){return false}
